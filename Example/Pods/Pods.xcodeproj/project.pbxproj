@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12F5F86551449E40832DB4FBD3A56DA9 /* CTLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3394FCD8AA85742D4A1C0E18BA0A760 /* CTLabel-dummy.m */; };
 		1C23CE2EB4B350BC1A1EEB53CCBBB3F0 /* Pods-CTLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20364B161FF59E4D7E5129CDB3EA27E9 /* Pods-CTLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29BF902D6C96021CDD65CF26BD2039F6 /* CTLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DA0581CC45D0EB8F509B7622E65EE /* CTLabel.swift */; };
 		546B1AE2C20FF75E5FA7A0A79B5488C4 /* Pods-CTLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF582DAEFF8CB9D34D722D4681BA58DE /* Pods-CTLabel_Tests-dummy.m */; };
 		6A622143D8751C82A8BE72B7A54E4E5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7B4DA7037DA3F4FCD931D5B6D165AA92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A2FB4D524467A0470BFB4FAA0A2508E4 /* CTLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A56FA997F62E379C62464D5CFC956B /* CTLabel-dummy.m */; };
+		87A77EEA41907FF461241DA7FF61CF3C /* CTLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8896561D40CC0118212028229A41BF /* CTLabel.swift */; };
 		A6565CA544175FEA27342F737706AF0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B3AACEF9998198F6863B21C1EB45E192 /* CTLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8703A7980F22BCA96A20FFB10EAD89AD /* CTLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3AACEF9998198F6863B21C1EB45E192 /* CTLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27AB3254CBC7AAA2C8C1B50886CC314E /* CTLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D22A28BFC057FFED71417A74A756E159 /* Pods-CTLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 962C684AA825724F847A6584F15057B5 /* Pods-CTLabel_Example-dummy.m */; };
 		EBC823ECEDC001D8C553C7C0D382029B /* Pods-CTLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 417176BC963A84A52B76700648BC1E5B /* Pods-CTLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -37,38 +37,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02EB60D38775D390730562B37185CBC9 /* CTLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTLabel-Info.plist"; sourceTree = "<group>"; };
+		019C0C8AA75159E0B6341B5433DAA459 /* CTLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CTLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		07A8D81C9958BF5CFE7472476B206856 /* Pods-CTLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1CCAAD5289266010D7B6D943AC65809A /* CTLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTLabel.release.xcconfig; sourceTree = "<group>"; };
 		20364B161FF59E4D7E5129CDB3EA27E9 /* Pods-CTLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CTLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		26EA356F7E3F38E4069EB322840DD677 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		27AB3254CBC7AAA2C8C1B50886CC314E /* CTLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTLabel-umbrella.h"; sourceTree = "<group>"; };
 		306153B132A3E919FC801CAE91CAF5E4 /* Pods-CTLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		382CF214427A89D03E83A2113475D73F /* CTLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTLabel-Info.plist"; sourceTree = "<group>"; };
 		406BA7D2199778B4CE076378E0CA81E3 /* CTLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTLabel; path = CTLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		417176BC963A84A52B76700648BC1E5B /* Pods-CTLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CTLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4538B69A1112F6182EE1E3306C433D44 /* CTLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTLabel.modulemap; sourceTree = "<group>"; };
 		4BCBF8A4DE18AC8094A566F46A89C8CB /* Pods-CTLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4F818BD44BACF1046D02CAF5202FE45C /* Pods-CTLabel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CTLabel_Example"; path = Pods_CTLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6670129A87B89362735080AAE663BC86 /* CTLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTLabel-prefix.pch"; sourceTree = "<group>"; };
+		5C8896561D40CC0118212028229A41BF /* CTLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTLabel.swift; path = CTLabel/Classes/CTLabel.swift; sourceTree = "<group>"; };
+		60F858D259105B95801664A2B1EA7060 /* CTLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTLabel.debug.xcconfig; sourceTree = "<group>"; };
 		68F3E5A16EBEF504612FC7EF569EF829 /* Pods-CTLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTLabel_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74A56FA997F62E379C62464D5CFC956B /* CTLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTLabel-dummy.m"; sourceTree = "<group>"; };
 		7B5248684AFD681E67A8D36788361F24 /* Pods-CTLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CTLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		7E909DC9F65E5CC758E59A498618D487 /* Pods-CTLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CTLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		823B6149378F0BB8F4CBCE77D907B800 /* Pods-CTLabel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CTLabel_Tests"; path = Pods_CTLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8703A7980F22BCA96A20FFB10EAD89AD /* CTLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTLabel-umbrella.h"; sourceTree = "<group>"; };
 		8C78D8CD7C0087E8CC9C3A00F54980CF /* Pods-CTLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CTLabel_Example.modulemap"; sourceTree = "<group>"; };
-		92BFE4DD80BA75D2406484A7D82D027E /* CTLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CTLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		917A23F966211931106428092390580A /* CTLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTLabel-prefix.pch"; sourceTree = "<group>"; };
 		962C684AA825724F847A6584F15057B5 /* Pods-CTLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CTLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		97C4029BB98FAE0474286D23ABBA7BDE /* Pods-CTLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9C93381FE6EA5ACFBFDA69FDC5119001 /* CTLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTLabel.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3394FCD8AA85742D4A1C0E18BA0A760 /* CTLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTLabel-dummy.m"; sourceTree = "<group>"; };
 		AF582DAEFF8CB9D34D722D4681BA58DE /* Pods-CTLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CTLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		C1B7498886E0D6847F0EE59F82932A28 /* Pods-CTLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTLabel_Tests-Info.plist"; sourceTree = "<group>"; };
-		CC5DA0581CC45D0EB8F509B7622E65EE /* CTLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTLabel.swift; path = CTLabel/Classes/CTLabel.swift; sourceTree = "<group>"; };
+		C399E8A05F03B1B66BE15E6395EED6E8 /* CTLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTLabel.modulemap; sourceTree = "<group>"; };
 		CEE0B0B28F94151C42E8432909077C6B /* Pods-CTLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CF2D9C378DB8B7D437970F381DAD7D84 /* Pods-CTLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D1691566DEF75542B364FF78C7A4A706 /* Pods-CTLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CTLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DD1F3E86975944CA6ED28C32AD42C096 /* CTLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTLabel.debug.xcconfig; sourceTree = "<group>"; };
-		ED7B126D4965F174C324AF2E0435DEA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		EF589D032B9F6AAA66A563CB8822BF4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EA2A54D44B3179991EF36477D38E5EC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F459D050712601B84D3E2EEEBD84F1E2 /* Pods-CTLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CTLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,20 +100,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19957EA3A9A42A3180BB96FC8476F51A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				92BFE4DD80BA75D2406484A7D82D027E /* CTLabel.podspec */,
-				EF589D032B9F6AAA66A563CB8822BF4F /* LICENSE */,
-				ED7B126D4965F174C324AF2E0435DEA5 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		528ABB81A6AA85EEA501B0931A7625CA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C572765053AFAA51BBA84A8D20797C7D /* CTLabel */,
+				8BEC482B1ACB47FC006607E6BEBD5071 /* CTLabel */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -142,6 +132,21 @@
 			path = "Target Support Files/Pods-CTLabel_Tests";
 			sourceTree = "<group>";
 		};
+		7C8344F5A2C57A8B54DE78C0CA2D4B08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C399E8A05F03B1B66BE15E6395EED6E8 /* CTLabel.modulemap */,
+				A3394FCD8AA85742D4A1C0E18BA0A760 /* CTLabel-dummy.m */,
+				382CF214427A89D03E83A2113475D73F /* CTLabel-Info.plist */,
+				917A23F966211931106428092390580A /* CTLabel-prefix.pch */,
+				27AB3254CBC7AAA2C8C1B50886CC314E /* CTLabel-umbrella.h */,
+				60F858D259105B95801664A2B1EA7060 /* CTLabel.debug.xcconfig */,
+				1CCAAD5289266010D7B6D943AC65809A /* CTLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CTLabel";
+			sourceTree = "<group>";
+		};
 		844215A0E0E81DAAF33E8AAEB1019D73 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,19 +156,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		940FCDCC823139A3900ACD5ACFBF5E31 /* Support Files */ = {
+		8BEC482B1ACB47FC006607E6BEBD5071 /* CTLabel */ = {
 			isa = PBXGroup;
 			children = (
-				4538B69A1112F6182EE1E3306C433D44 /* CTLabel.modulemap */,
-				74A56FA997F62E379C62464D5CFC956B /* CTLabel-dummy.m */,
-				02EB60D38775D390730562B37185CBC9 /* CTLabel-Info.plist */,
-				6670129A87B89362735080AAE663BC86 /* CTLabel-prefix.pch */,
-				8703A7980F22BCA96A20FFB10EAD89AD /* CTLabel-umbrella.h */,
-				DD1F3E86975944CA6ED28C32AD42C096 /* CTLabel.debug.xcconfig */,
-				9C93381FE6EA5ACFBFDA69FDC5119001 /* CTLabel.release.xcconfig */,
+				5C8896561D40CC0118212028229A41BF /* CTLabel.swift */,
+				C73B049C5EA9C9441CA1D279A2FB8CA2 /* Pod */,
+				7C8344F5A2C57A8B54DE78C0CA2D4B08 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CTLabel";
+			name = CTLabel;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BDF24C2F3D6F62A31B44A9F14F10C41B /* Pods-CTLabel_Example */ = {
@@ -183,15 +184,14 @@
 			path = "Target Support Files/Pods-CTLabel_Example";
 			sourceTree = "<group>";
 		};
-		C572765053AFAA51BBA84A8D20797C7D /* CTLabel */ = {
+		C73B049C5EA9C9441CA1D279A2FB8CA2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CC5DA0581CC45D0EB8F509B7622E65EE /* CTLabel.swift */,
-				19957EA3A9A42A3180BB96FC8476F51A /* Pod */,
-				940FCDCC823139A3900ACD5ACFBF5E31 /* Support Files */,
+				019C0C8AA75159E0B6341B5433DAA459 /* CTLabel.podspec */,
+				26EA356F7E3F38E4069EB322840DD677 /* LICENSE */,
+				EA2A54D44B3179991EF36477D38E5EC7 /* README.md */,
 			);
-			name = CTLabel;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -296,7 +296,7 @@
 			buildConfigurationList = EB0FA97879FFC0052A1D7B8B0204123C /* Build configuration list for PBXNativeTarget "CTLabel" */;
 			buildPhases = (
 				0211EC6E0E0394C0156663DF380B8FED /* Headers */,
-				9D71D22AA3E2988E6078DAA7A1853067 /* Sources */,
+				702082B317503F5227D70976BC17EFC9 /* Sources */,
 				2DDEE2402B64E5578802D249C1ACAA31 /* Frameworks */,
 				A1F49D500A03EC153B70B65F5BF8EE49 /* Resources */,
 			);
@@ -379,12 +379,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D71D22AA3E2988E6078DAA7A1853067 /* Sources */ = {
+		702082B317503F5227D70976BC17EFC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2FB4D524467A0470BFB4FAA0A2508E4 /* CTLabel-dummy.m in Sources */,
-				29BF902D6C96021CDD65CF26BD2039F6 /* CTLabel.swift in Sources */,
+				87A77EEA41907FF461241DA7FF61CF3C /* CTLabel.swift in Sources */,
+				12F5F86551449E40832DB4FBD3A56DA9 /* CTLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +473,38 @@
 			};
 			name = Debug;
 		};
+		7070A3F76C13549BFC5652247F16A35B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCAAD5289266010D7B6D943AC65809A /* CTLabel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTLabel/CTLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTLabel/CTLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTLabel/CTLabel.modulemap";
+				PRODUCT_MODULE_NAME = CTLabel;
+				PRODUCT_NAME = CTLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -528,7 +560,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -568,9 +601,9 @@
 			};
 			name = Release;
 		};
-		CD2AD0C04FD7DA656AC1B09C74781DC4 /* Release */ = {
+		B748C4C78F9A09D6BE59F5AE4F1EE3AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C93381FE6EA5ACFBFDA69FDC5119001 /* CTLabel.release.xcconfig */;
+			baseConfigurationReference = 60F858D259105B95801664A2B1EA7060 /* CTLabel.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -592,13 +625,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -663,37 +695,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		D367EF247B1D6AE9A57EDF19BD74A784 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD1F3E86975944CA6ED28C32AD42C096 /* CTLabel.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CTLabel/CTLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CTLabel/CTLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CTLabel/CTLabel.modulemap";
-				PRODUCT_MODULE_NAME = CTLabel;
-				PRODUCT_NAME = CTLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -763,8 +764,8 @@
 		EB0FA97879FFC0052A1D7B8B0204123C /* Build configuration list for PBXNativeTarget "CTLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D367EF247B1D6AE9A57EDF19BD74A784 /* Debug */,
-				CD2AD0C04FD7DA656AC1B09C74781DC4 /* Release */,
+				B748C4C78F9A09D6BE59F5AE4F1EE3AC /* Debug */,
+				7070A3F76C13549BFC5652247F16A35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

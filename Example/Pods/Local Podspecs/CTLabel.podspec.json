@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "CTLabel/Classes/**/*"
+  "source_files": "CTLabel/**/*"
 }
