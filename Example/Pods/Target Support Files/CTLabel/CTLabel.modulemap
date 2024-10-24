@@ -1,0 +1,6 @@
+framework module CTLabel {
+  umbrella header "CTLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

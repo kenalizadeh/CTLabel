@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CTLabel'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CTLabel.'
+  s.version          = '1.0.0'
+  s.summary          = 'Custom Trailing Truncation Label with TextKit'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Replaces the default ellipsis with a custom NSAttributedString.
                        DESC
 
   s.homepage         = 'https://github.com/Kenan Alizadeh/CTLabel'

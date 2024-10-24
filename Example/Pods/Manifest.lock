@@ -1,0 +1,16 @@
+PODS:
+  - CTLabel (1.0.0)
+
+DEPENDENCIES:
+  - CTLabel (from `../`)
+
+EXTERNAL SOURCES:
+  CTLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTLabel: ad2e9a7015dc0c7d058ce1b5cae9511b60b20079
+
+PODFILE CHECKSUM: 0599a2b148723af0ec5d08f7ef5cd1744884e823
+
+COCOAPODS: 1.15.2
