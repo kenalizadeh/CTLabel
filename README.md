@@ -1,15 +1,5 @@
 # CTLabel
-
-[![CI Status](https://img.shields.io/travis/Kenan Alizadeh/CTLabel.svg?style=flat)](https://travis-ci.org/Kenan Alizadeh/CTLabel)
-[![Version](https://img.shields.io/cocoapods/v/CTLabel.svg?style=flat)](https://cocoapods.org/pods/CTLabel)
-[![License](https://img.shields.io/cocoapods/l/CTLabel.svg?style=flat)](https://cocoapods.org/pods/CTLabel)
-[![Platform](https://img.shields.io/cocoapods/p/CTLabel.svg?style=flat)](https://cocoapods.org/pods/CTLabel)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+Custom Trailing Truncation Label with [TextKit](https://developer.apple.com/documentation/appkit/textkit)
 
 ## Installation
 
