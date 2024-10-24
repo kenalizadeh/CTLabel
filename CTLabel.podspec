@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'CTLabel/Classes/**/*'
-  
+  s.source_files = 'CTLabel/**/*'
+
   # s.resource_bundles = {
   #   'CTLabel' => ['CTLabel/Assets/*.png']
   # }

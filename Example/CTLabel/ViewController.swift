@@ -40,9 +40,7 @@ final class ViewController: UIViewController {
             return attributedString
         }()
         let label = CTLabel()
-        label.layer.borderColor = UIColor.red.cgColor
         label.backgroundColor = .white
-        label.layer.borderWidth = 0.5
         label.setContent(attributedString, truncationString: attributedTruncationString)
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 3
