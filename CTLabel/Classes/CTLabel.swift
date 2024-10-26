@@ -9,9 +9,9 @@ import UIKit
 public final class CTLabel: UIView {
     internal typealias StringAttribute = [NSAttributedString.Key: Any]
 
-    private let layoutManager: NSLayoutManager
-    private let textStorage: NSTextStorage
-    private let textContainer: NSTextContainer
+    private var layoutManager: NSLayoutManager!
+    private var textStorage: NSTextStorage!
+    private var textContainer: NSTextContainer!
 
     private var initialAttributesCache: [(StringAttribute, NSRange)] = []
     private var truncationAttributedString: NSAttributedString?
@@ -33,11 +33,14 @@ public final class CTLabel: UIView {
     public required init?(coder _: NSCoder) { fatalError("init(coder:) has not been implemented") }
 
     public override init(frame: CGRect) {
-        self.layoutManager = NSLayoutManager()
-        self.textStorage = NSTextStorage()
-        self.textContainer = NSTextContainer()
         super.init(frame: frame)
+        initializeTextKitStack()
+    }
 
+    private func initializeTextKitStack() {
+        layoutManager = NSLayoutManager()
+        textStorage = NSTextStorage()
+        textContainer = NSTextContainer()
         textContainer.lineFragmentPadding = 0
         textStorage.addLayoutManager(layoutManager)
         layoutManager.addTextContainer(textContainer)
@@ -48,6 +51,7 @@ public final class CTLabel: UIView {
         textStorage.copyAttributesFrom(textStorage, attributeKeys: [.font, .paragraphStyle])
         let layoutManager = NSLayoutManager()
         let textContainer = NSTextContainer(size: CGSize(width: bounds.width, height: CGFloat.greatestFiniteMagnitude))
+        textContainer.lineFragmentPadding = 0
         textContainer.maximumNumberOfLines = numberOfLines
         textStorage.addLayoutManager(layoutManager)
         layoutManager.addTextContainer(textContainer)
@@ -121,6 +125,10 @@ public final class CTLabel: UIView {
     }
 
     public func setContent(_ attributedString: NSAttributedString, truncationString: NSAttributedString?) {
+        let numberOfLines = self.numberOfLines
+        initializeTextKitStack()
+        textContainer.maximumNumberOfLines = numberOfLines
+
         initialAttributesCache.removeAll()
         truncationReplacementGlyphRange = nil
         replacementRangeLocationOffset = 0
@@ -133,11 +141,8 @@ public final class CTLabel: UIView {
                 initialAttributesCache.append((attributes, range))
             }
         )
-        textStorage.ensureAttributesAreFixed(in: NSRange(location: 0, length: textStorage.length))
-        layoutManager.ensureLayout(for: textContainer)
         setNeedsLayout()
         setNeedsDisplay()
-        invalidateIntrinsicContentSize()
     }
 
     private func resetAttributes() {
