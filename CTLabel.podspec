@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CTLabel'
-  s.version          = '1.0.0'
+  s.version          = '1.2.0'
   s.summary          = 'Custom Trailing Truncation Label with TextKit'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   Replaces the default ellipsis with a custom NSAttributedString.
                        DESC
 
-  s.homepage         = 'https://github.com/Kenan Alizadeh/CTLabel'
+  s.homepage         = 'https://github.com/kenalizadeh/CTLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kenan Alizadeh' => 'kananalizade@gmail.com' }
