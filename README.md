@@ -37,11 +37,14 @@ label.numberOfLines = 3
 
 ## Installation
 
-CTLabel is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
+### CocoaPods
 ```ruby
 pod 'CTLabel'
+```
+
+### SPM
+```
+https://github.com/kenalizadeh/CTLabel
 ```
 
 ## Author
