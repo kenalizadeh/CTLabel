@@ -21,7 +21,7 @@ let attributedTruncationString: NSAttributedString = {
         attributes: [.foregroundColor: UIColor.black]
     )
 
-    let moreString = "Read more"
+    let moreString = "More"
     let attrStr2 = NSAttributedString(
         string: moreString,
         attributes: [.foregroundColor: UIColor.red]
