@@ -16,10 +16,16 @@ let attributedString = NSAttributedString(
 )
 let attributedTruncationString: NSAttributedString = {
     let ellipsisString = "\u{2026} "
-    let attrStr1 = NSAttributedString(string: ellipsisString, attributes: [.foregroundColor: UIColor.black])
+    let attrStr1 = NSAttributedString(
+        string: ellipsisString,
+        attributes: [.foregroundColor: UIColor.black]
+    )
 
     let moreString = "Read more"
-    let attrStr2 = NSAttributedString(string: moreString, attributes: [.foregroundColor: UIColor.red])
+    let attrStr2 = NSAttributedString(
+        string: moreString,
+        attributes: [.foregroundColor: UIColor.red]
+    )
 
     let attributedString = NSMutableAttributedString()
     attributedString.append(attrStr1)
